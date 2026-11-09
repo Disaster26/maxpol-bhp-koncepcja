@@ -1,0 +1,6 @@
+/* Podgląd treści w edytorze WordPress zbliżony do strony */
+body{font:400 17px/1.6 Barlow,system-ui,sans-serif;color:#1E2124}
+h2,h3{font-family:"Barlow Semi Condensed",Barlow,sans-serif;font-style:italic;font-weight:800;line-height:1.1}
+.ppoz{border-left:5px solid #E31E25;padding:16px 20px}
+.tryby .wp-block-column{background:#EEF0F2;border-top:4px solid #47D028;padding:14px 16px}
+.ramka{background:#EEF0F2;border-left:4px solid #47D028;padding:16px 20px}

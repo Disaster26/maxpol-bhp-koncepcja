@@ -506,7 +506,7 @@ p{margin:0}
 @media (max-width:520px){.ck{left:8px;right:8px;bottom:8px;width:auto}.ck-in{padding:14px 14px 14px}.ck-tekst{font-size:.88rem}}
 
 /* powiększenie zdjęć */
-.lb{position:fixed;inset:0;z-index:90;background:rgba(14,16,18,.96);color:#fff;touch-action:none}
+.lb{position:fixed;inset:0;z-index:90;background:rgba(14,16,18,.985);color:#fff;touch-action:none}
 .lb[hidden]{display:none}
 .lb-scena{position:absolute;inset:56px 0 64px;display:grid;place-items:center;overflow:hidden}
 .lb-scena img{max-width:min(100% - 24px,1600px);max-height:100%;width:auto;height:auto;object-fit:contain;user-select:none;-webkit-user-drag:none;transform-origin:center;will-change:transform;cursor:zoom-in}

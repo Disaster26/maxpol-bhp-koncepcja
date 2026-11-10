@@ -528,3 +528,17 @@ p{margin:0}
   html{scroll-behavior:auto}
   *,*::before,*::after{transition:none!important;animation:none!important}
 }
+
+/* media społecznościowe (10.11) */
+.social{display:flex;flex-wrap:wrap;gap:8px 16px;margin-top:6px}
+.social a{display:inline-flex;align-items:center;gap:7px;color:#4A5157;text-decoration:none}
+.social a:hover{color:var(--ziel-t)}
+.social .ik{width:20px;height:20px;flex:none}
+.st-kol .social{flex-direction:row}
+.kontakt-social{margin:4px 0 2px}
+.kontakt-social a{font-weight:600}
+.yt-pas{padding-block:40px}
+.yt-in{display:grid;grid-template-columns:auto 1fr auto;gap:18px 26px;align-items:center;border:1px solid #DDE2E5;border-radius:10px;padding:24px 28px;background:#fff}
+.yt-ik .ik{width:52px;height:52px;color:#C4302B}
+.yt-tyt{font-size:1.35rem;margin-bottom:4px}
+@media (max-width:700px){.yt-in{grid-template-columns:auto 1fr;padding:20px}.yt-in .btn{grid-column:1/-1;justify-self:start}.yt-ik .ik{width:40px;height:40px}}
